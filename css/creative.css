@@ -71,6 +71,11 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #ff2d00; }
 
+/*.fa .fa-4x .fa-user-circle .text-primary .mb-3 .sr-icons:hover {
+  color: #ff2d00; 
+}*/
+
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -156,6 +161,10 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #212529;
+}
+
+.container #hovercolor:hover {
+  background: #212529;
 }
 
 .topnav .search-container button:hover {
